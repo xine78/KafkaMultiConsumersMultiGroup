@@ -5,3 +5,10 @@ spring:
     consumer:
       group-id: kafka
       auto-offset-reset: earliest
+---
+spring:
+  profiles:
+    active: cg2
+  kafka:
+    consumer:
+      group-id: kafka2
